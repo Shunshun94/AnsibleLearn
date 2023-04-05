@@ -2,6 +2,11 @@
 
 [vars.yml](./vars/vars.yml)の変数 `kawaii` の値に応じて挙動を変える何かをやりたい。
 
+## base
+
+何も考えずに `hiyoko` と `hitsuji` を実行しているだけ。
+本題とは関係なくベースとなる挙動を確認するためだけの playbook
+
 ## dynamic-1
 
 参照する role を role の名称として直に指定している。
