@@ -1,0 +1,6 @@
+- hosts: localhost
+  vars_files:
+    - ./vars/vars.yml
+  roles:
+    - kawaii-synbolic-link
+    - kawaii-sl

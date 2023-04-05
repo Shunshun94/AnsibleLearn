@@ -1,0 +1,6 @@
+- name: delete symbolic link
+  shell: if [ -e roles/kawaii-sl ]; then unlink roles/kawaii-sl; fi
+- name: create synbolic link
+  shell: ln -s ./{{ kawaii }} roles/kawaii-sl
+- name: wait 5 secs
+  shell: sleep 3
