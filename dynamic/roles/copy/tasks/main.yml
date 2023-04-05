@@ -1,0 +1,3 @@
+- name: copy
+  command: cp -r ./roles/{{ kawaii }}/tasks ./roles/kawaii/
+

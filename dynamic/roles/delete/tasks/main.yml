@@ -1,0 +1,3 @@
+- name: delete in files
+  shell: rm roles/kawaii/tasks/*
+
